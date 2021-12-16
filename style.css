@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+.card{
+ font-family: 'Outfit', sans-serif;
+}
+
+body{
+ margin: auto;
+ background: hsl(217, 54%, 11%);
+}
+
+html{
+ font-size: 62.5%;
+}
+
+img{
+ max-width: 100%;
+ border-radius: 1rem;
+}
+
+/* CARD CSS START */
+
+.card-section{
+ margin: 10rem 3rem;
+ background: hsl(216, 50%, 16%);
+ border-radius: 1rem;
+}
+
+.card-content{
+ padding: 2rem;
+}
+
+.card-text h3{
+ font-size: 2rem;
+ color: hsl(0, 0%, 100%);
+ font-weight: 600;
+}
+
+.card-text p{
+ font-size: 1.6rem;
+ color: hsl(215, 51%, 70%);
+ font-weight: 300;
+ line-height: 2rem;
+}
+
+.textwithIcon{
+ display: flex;
+ align-items: center;
+ margin-bottom: 1rem;
+}
+
+.textwithIcon p{
+ padding-left: .5rem;
+ font-size: 1.4rem;
+ color: hsl(178, 100%, 50%);
+ margin: 0;
+ font-weight: 600;
+}
+
+.textwithIcon-two{
+ display: flex;
+ align-items: center;
+ margin-bottom: 1rem;
+}
+
+.textwithIcon-two p{
+ padding-left: .5rem;
+ font-size: 1.4rem;
+ color: hsl(215, 51%, 70%);
+ margin: 0;
+ font-weight: 600;
+}
+
+.card-icon-text{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 2rem;
+}
+
+
+.card-creator{
+ display: flex;
+ margin-top: 1rem;
+}
+
+.card-creator img{
+ vertical-align: center;
+ width: 3rem;
+ height: 3rem;
+ border-radius: 50%;
+ border: .1rem solid white;
+ 
+}
+
+.card-creator p{
+ font-size: 1.4rem;
+ padding-left: 1.2rem;
+ margin-top: .7rem;
+ margin-bottom: 0;
+ color: hsl(0, 0%, 100%);
+}
+
+.card-creator span{
+ color: hsl(215, 51%, 70%);
+}
+
+@media (min-width:768px){
+ .container{
+  max-width: 400px;
+  margin: auto;
+ }
+
+ .card-img img{
+  width: 30rem;
+  height: 30rem;
+ }
+
+}
+
